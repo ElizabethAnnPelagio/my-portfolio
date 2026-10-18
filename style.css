@@ -86,3 +86,11 @@ h1 span { color: var(--primary); display: block; }
   .timeline, .card-grid { grid-template-columns: 1fr; }
   .footer-inner { flex-direction: column; text-align: center; }
 }
+.profile-picture {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+}
