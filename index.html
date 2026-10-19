@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,71 +13,188 @@
     <a class="logo" href="#home">EAP<span>.</span></a>
     <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
     <nav id="navMenu" aria-label="Main navigation">
-      <a href="#home">Home</a><a href="#about">About</a><a href="#education">Education</a>
-      <a href="#interests">Interests</a><a href="#certificates">Certificates</a><a href="#contact">Contact</a>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#interests">Interests</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
   <main>
+    <!-- HOME -->
     <section class="hero section" id="home">
       <div class="hero-copy">
         <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
         <h1>Hello, I'm <span>Elizabeth Ann Pilar Pelagio</span></h1>
         <h2>Computer Engineering Student</h2>
-        <p class="intro">I’m a student who is eager to learn, explore technology, and develop skills in computer engineering and web development.</p>
-        <div class="hero-actions"><a class="button primary" href="#about">Discover More</a><a class="button secondary" href="#contact">Contact Me</a></div>
+        <p class="intro">
+          I’m a student who is eager to learn, explore technology,
+          and develop skills in computer engineering and web development.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button primary" href="#about">Discover More</a>
+          <a class="button secondary" href="#contact">Contact Me</a>
+        </div>
       </div>
+
       <div class="portrait-wrap">
-        <div class="portrait-ring"><img id="profileImage" src="images/profile.jpg" alt="Profile photo of Elizabeth Ann Pilar Pelagio" onerror="this.style.display='none'; document.getElementById('portraitFallback').style.display='grid';" /><div id="portraitFallback" class="portrait-fallback">EP</div></div>
-        <p class="photo-note">Your profile photo goes here</p>
+        <div class="portrait-ring">
+          <img
+            id="profileImage"
+            src="images/profile.jpg"
+            alt="Profile photo of Elizabeth Ann Pilar Pelagio"
+            onerror="this.style.display='none'; document.getElementById('portraitFallback').style.display='grid';"
+          />
+          <div id="portraitFallback" class="portrait-fallback" style="display:none;">EP</div>
+        </div>
+        <p class="photo-note">My Profile Photo</p>
       </div>
     </section>
 
+    <!-- ABOUT -->
     <section class="section" id="about">
-      <div class="section-heading"><p class="eyebrow">GET TO KNOW ME</p><h2>About <span>Me</span></h2></div>
-      <div class="content-card"><p>Hi! I’m Elizabeth Ann Pilar Pelagio, a Computer Engineering student at ICCT Colleges Foundation Inc. I’m interested in technology and enjoy learning new skills that help me grow academically and personally.</p><p>This portfolio is a place to introduce myself, share my educational background and interests, and showcase certificates and projects as I continue learning.</p></div>
+      <div class="section-heading">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2>About <span>Me</span></h2>
+      </div>
+      <div class="content-card">
+        <p>
+          Hi! I’m Elizabeth Ann Pilar Pelagio, a Computer Engineering
+          student at ICCT Colleges Foundation Inc. I’m interested in
+          technology and enjoy learning new skills that help me grow
+          academically and personally.
+        </p>
+        <p>
+          This portfolio is a place to introduce myself, share my
+          educational background and interests, and showcase certificates
+          and projects as I continue learning.
+        </p>
+      </div>
     </section>
 
+    <!-- EDUCATION -->
     <section class="section" id="education">
-      <div class="section-heading"><p class="eyebrow">MY LEARNING JOURNEY</p><h2>Educational <span>Background</span></h2></div>
+      <div class="section-heading">
+        <p class="eyebrow">MY LEARNING JOURNEY</p>
+        <h2>Educational <span>Background</span></h2>
+      </div>
+
       <div class="timeline">
-        <article class="timeline-item"><span class="timeline-dot"></span><div class="content-card"><p class="school-level">PRIMARY</p><h3>Adonai Shepered Academy</h3><p class="school-year">S.Y. 2008–2009</p><h3>Pres. Corazon C. Aquino Elementary School</h3><p class="school-year">S.Y. 2009–2015</p></div></article>
-        <article class="timeline-item"><span class="timeline-dot"></span><div class="content-card"><p class="school-level">SECONDARY</p><h3>Batasan Hills National HS</h3><p class="school-year">S.Y. 2015–2019</p><h3>MPCA</h3><p class="school-year">S.Y. 2019–2020</p><h3>APSAS</h3><p class="school-year">S.Y. 2020–2021</p></div></article>
-        <article class="timeline-item"><span class="timeline-dot"></span><div class="content-card"><p class="school-level">COLLEGE</p><h3>ICCT Colleges Foundation Inc</h3><p class="school-year">Computer Engineering</p></div></article>
+        <article class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div class="content-card">
+            <p class="school-level">PRIMARY</p>
+            <h3>Adonai Shepered Academy</h3>
+            <p class="school-year">S.Y. 2008–2009</p>
+            <h3>Pres. Corazon C. Aquino Elementary School</h3>
+            <p class="school-year">S.Y. 2009–2015</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div class="content-card">
+            <p class="school-level">SECONDARY</p>
+            <h3>Batasan Hills National HS</h3>
+            <p class="school-year">S.Y. 2015–2019</p>
+            <h3>MPCA</h3>
+            <p class="school-year">S.Y. 2019–2020</p>
+            <h3>APSAS</h3>
+            <p class="school-year">S.Y. 2020–2021</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div class="content-card">
+            <p class="school-level">COLLEGE</p>
+            <h3>ICCT Colleges Foundation Inc</h3>
+            <p class="school-year">Computer Engineering</p>
+          </div>
+        </article>
       </div>
     </section>
 
+    <!-- INTERESTS -->
     <section class="section" id="interests">
-      <div class="section-heading"><p class="eyebrow">WHAT I ENJOY</p><h2>My <span>Interests</span></h2></div>
+      <div class="section-heading">
+        <p class="eyebrow">WHAT I ENJOY</p>
+        <h2>My <span>Interests</span></h2>
+      </div>
+
       <div class="interest-grid">
-        <article class="interest-card"><div class="interest-icon">⌘</div><h3>Technology</h3><p>Exploring computers, digital tools, and new technologies.</p></article>
-        <article class="interest-card"><div class="interest-icon">&lt;/&gt;</div><h3>Web Development</h3><p>Learning how websites are designed and built with code.</p></article>
-        <article class="interest-card"><div class="interest-icon">✦</div><h3>Creative Learning</h3><p>Trying new ideas and improving my skills through practice.</p></article>
+        <article class="interest-card">
+          <div class="interest-icon">⌘</div>
+          <h3>Technology</h3>
+          <p>Exploring computers, digital tools, and new technologies.</p>
+        </article>
+
+        <article class="interest-card">
+          <div class="interest-icon">&lt;/&gt;</div>
+          <h3>Web Development</h3>
+          <p>Learning how websites are designed and built with code.</p>
+        </article>
+
+        <article class="interest-card">
+          <div class="interest-icon">✦</div>
+          <h3>Creative Learning</h3>
+          <p>Trying new ideas and improving my skills through practice.</p>
+        </article>
       </div>
     </section>
 
+    <!-- CERTIFICATES -->
     <section class="section" id="certificates">
-  <div class="section-heading">
-    <p class="eyebrow">MY ACHIEVEMENTS</p>
-    <h2>Certificates &amp; <span>Projects</span></h2>
-  </div>
+      <div class="section-heading">
+        <p class="eyebrow">MY ACHIEVEMENTS</p>
+        <h2>Certificates &amp; <span>Projects</span></h2>
+      </div>
 
-  <div class="content-card certificate-card">
-    <div class="certificate-preview">
-      <img
-        src="images/IMG_1234.jpeg"
-        alt="My Certificate"
-      />
-    </div>
-    <div>
-      <h3>My Certificate</h3>
-      <p>My certificate and achievement.</p>
-    </div>
-  </div>
-</section>
+      <div class="content-card certificate-card">
+        <div class="certificate-preview">
+          <img
+            src="images/IMG_1234.jpeg"
+            alt="Certificate or achievement"
+            onerror="this.style.display='none';"
+          />
+        </div>
+        <div>
+          <h3>My Certificate</h3>
+          <p>My certificate and achievement.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Contact <span>Me</span></h2>
+      </div>
+
+      <div class="content-card contact-card">
+        <p>
+          Thank you for visiting my portfolio.
+          You can connect with me through my Facebook profile.
+        </p>
+        <a
+          class="button primary"
+          href="https://www.facebook.com/share/19oC7HYV2j/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Visit My Facebook</a>
+      </div>
+    </section>
   </main>
 
-  <footer><p>© <span id="year"></span> Elizabeth Ann Pilar Pelagio. Made with care.</p><a href="#home">Back to top ↑</a></footer>
+  <footer>
+    <p>© <span id="year"></span> Elizabeth Ann Pilar Pelagio. Made with care.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
