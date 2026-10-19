@@ -1,0 +1,1 @@
+Optional: place a certificate image here named certificate.jpg.
